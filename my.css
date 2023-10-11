@@ -1,0 +1,38 @@
+tbody tr:hover {
+    background: silver;
+  }
+
+/*Mobile*/
+@media (min-width: 320px) {
+    body {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+
+    table {
+        font-size: 14px; 
+    }
+
+    table tbody tr {
+        max-width: 10px;
+        height: 40px; 
+    }
+
+}
+
+/*Desktop*/
+@media (min-width: 1080px) {
+    body {
+        font-size: 18px; 
+        padding: 20px; 
+    }
+
+    table {
+        font-size: 18px; 
+    }
+
+    table tbody tr {
+        width: 20%;
+        height: 50px; 
+    }
+}
